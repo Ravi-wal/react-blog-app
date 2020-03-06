@@ -7,3 +7,9 @@ Installation:
 
 Run:
 >>npm start
+
+API Server Port:
+>>3001
+
+API URL:
+>>http://localhost:3001
