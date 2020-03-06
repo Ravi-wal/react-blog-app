@@ -11,7 +11,7 @@ class DashboardComponent extends Component {
     };
   }
   componentDidMount() {
-    const url = "http://localhost:3001/posts/";
+    const url = "https://node-react-blog.herokuapp.com/posts/";
     fetch(url, {
       method: "GET",
       headers: {

@@ -23,7 +23,7 @@ class RegisterComponent extends Component {
     handleSubmit = event =>{
         event.preventDefault();
         console.log(this.state)
-        const url ="http://localhost:3001/users"
+        const url ="https://node-react-blog.herokuapp.com/users"
         const data = {
             "firstname": this.state.firstName,
             "lastname": this.state.lastName,

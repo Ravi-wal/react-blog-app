@@ -12,7 +12,7 @@ class SinglePostComponent extends Component {
   }
   componentDidMount() {
     console.log(this.props.match.params.slug);
-    const url = "http://localhost:3001/posts/"+this.props.match.params.slug;
+    const url = "https://node-react-blog.herokuapp.com/posts/"+this.props.match.params.slug;
     fetch(url, {
       method: "GET",
       headers: {

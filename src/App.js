@@ -15,6 +15,7 @@ const initialLogStatus = {
                       loggedin : false
                 }
 
+
 class App extends React.Component {
   constructor() {
       super();

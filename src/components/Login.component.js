@@ -27,7 +27,7 @@ class LoginComponent extends Component {
 
     handleSubmit = event => {
         event.preventDefault();
-        const url = 'http://localhost:3001/auth/';
+        const url = 'https://node-react-blog.herokuapp.com/auth/';
         const data = {
             email: this.state.email,
             password: this.state.password

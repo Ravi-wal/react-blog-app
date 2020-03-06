@@ -17,7 +17,7 @@ class ProfileComponent extends Component {
         }
     }
     componentDidMount(){
-        const url ="http://localhost:3001/users/getuser";
+        const url ="https://node-react-blog.herokuapp.com/users/getuser";
         fetch(url,{ method: 'GET',
                     headers:{ 
                         'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ class ProfileComponent extends Component {
     handleSubmit = event =>{
         event.preventDefault();
         console.log(this.state)
-        const url ="http://localhost:3001/users/"+this.state._id
+        const url ="https://node-react-blog.herokuapp.com/users/"+this.state._id
         const data = {
             "firstname": this.state.firstName,
             "lastname": this.state.lastName,

@@ -26,7 +26,7 @@ class AddPostComponent extends Component {
     }
     handleSubmit = event =>{
         event.preventDefault();
-        const url ="http://localhost:3001/posts"
+        const url ="https://node-react-blog.herokuapp.com/posts"
         const data = {
             "title": this.state.title,
             "slug": this.state.slug,
