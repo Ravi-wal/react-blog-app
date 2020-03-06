@@ -13,3 +13,8 @@ API Server Port:
 
 API URL:
 >>http://localhost:3001
+
+
+Heroku Deployment URL(APIs):
+
+>>https://node-react-blog.herokuapp.com/
